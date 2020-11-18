@@ -6,6 +6,8 @@
     <title>My Portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Found the need to invoke my own style sheet to manage custom styling -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Additional recommended scripts from w3schools.com
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -13,35 +15,40 @@
 </head>
 
 <body>
+        <!-- Build the navbar and format with dark and responsive small icon -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- style my name -->
+            <a class="navbar-brand" href="#">Jason McGinthy</a>
+            <!-- Adding a hamburger icon when collapsed in small screen -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Create collapsable buttons -->
+            <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
+                <!-- right-align the navbar -->
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>    
+                </ul>
+              </div>  
+        </nav>
+    
+    
+    
+    <!-- To Do: figure out how to get rid of the margin on the header. Do I need css? -->
     <header class="jumbotron text-center" style="margin-bottom:0">
         <!-- Create a responsive picture in header -->
         <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/07/mind_body_spirit_v1a-01.png?resize=768%2C420" class="img-fluid" width="100%" height="100%" alt="Tech Header">    
     </header>
     
-    <!-- Build the navbar and format with dark and responsive small icon -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- style my name -->
-        <a class="navbar-brand" href="#">Jason McGinthy</a>
-        <!-- Adding a hamburger icon when collapsed in small screen -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Create collapsable buttons -->
-        <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
-            <!-- right-align the navbar -->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>    
-            </ul>
-          </div>  
-    </nav>
+
     
     <!-- Container for the content -->
     <main class="container" style="margin-top: 30px;">
@@ -49,10 +56,15 @@
             <div class="col-md-12">
                 <h2>About Me</h2>
                 <h5>Photo:</h5>
-                <img src="images/linkedIn.jpg" alt="LinkedIn Image" class="float-left">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati assumenda culpa porro harum dolorum tenetur. Nemo itaque ad sapiente praesentium quasi soluta deleniti eum atque! Rem voluptates deserunt aut veniam.</p>
+                <!-- Added custom margin into the style.css and invoked using class="about-img" -->
+                <img src="images/linkedIn.jpg" alt="LinkedIn Image" class="float-left about-img">
+                <p>I was born and raised in Glen Allen, VA. As a youth, sports was my life. I started ealier trying Karate, Soccer, and Baseball. Baseball stuck with my as I had a talent for speed and hand, eye coordination. Throughout Middle and High School, I participated in Wrestling, Football, Track&Field and also Cross Country. Looking back, it sure does seem like a lot.</p>
+                <p>As a young adult, I received an excellent Business education and CIS concentration from Longwood University. I proceeded to graduate to receive my MBA in Information Security. This is where I discovered a passion for technology and the field of Information Security.</p>
+                <p>I kick started my career in the Tech industry when I was living in Miami, FL. This System Admin role was my first satisfying IT job. From there I moved to Dallas, TX and became a System Consultant for a small firm out of Addison. This role gave me an overview of IT that paved the way for years to come. Like a full circle, my life brought me back the the Richmond area, where I began my journey at Capital One.
+                <p>While at Capital One I learned about many interesting technologies utilized in and around the Financial and Tech Industries. Nothing is cooler than AWS! I am new to Software Engineering, but my desire to learn coupled with a strong passion for technology has me very excited for the future! </p>
             </div>
         </div>
+        
     </main>
 </body>
 </html>
