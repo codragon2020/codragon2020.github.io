@@ -8,27 +8,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Found the need to invoke my own style sheet to manage custom styling -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Additional recommended scripts from w3schools.com
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Additional recommended scripts from w3schools.com -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- Added for js scripts to toggle buttons -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
         <!-- Build the navbar and format with dark and responsive small icon -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- style my name -->
-            <a class="navbar-brand" href="#">Jason McGinthy</a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/jasonmcginthy">Jason McGinthy</a>
             <!-- Adding a hamburger icon when collapsed in small screen -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Create collapsable buttons -->
-            <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
+            <div class="navbar-collapse collapse show ml-auto" id="collapsibleNavbar" style>
                 <!-- right-align the navbar -->
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about-img">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
@@ -53,11 +55,10 @@
     <!-- Container for the content -->
     <main class="container" style="margin-top: 30px;">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-12">
                 <h2>About Me</h2>
-                <h5>Photo:</h5>
                 <!-- Added custom margin into the style.css and invoked using class="about-img" -->
-                <img src="images/linkedIn.jpg" alt="LinkedIn Image" class="float-left about-img">
+                <img id="about-img" src="images/linkedIn.jpg" alt="LinkedIn Image" class="float-left about-img">
                 <p>I was born and raised in Glen Allen, VA. As a youth, sports was my life. I started ealier trying Karate, Soccer, and Baseball. Baseball stuck with me as I had a talent for speed and hand-eye coordination. Throughout Middle and High School, I participated in Wrestling, Football, Track&Field and also Cross Country. Looking back, it sure does seem like a lot.</p>
                 <p>Nowadays, I enjoy exercising through running and martial arts. I was obsessed with Shoalin KungFu for a while. I hope to someday get back to that.</p>
                 <p>As a young adult, I received an excellent business education with CIS concentration from Longwood University. I proceeded to graduate school to pursue my MBA in Information Security. This is where I discovered a passion for technology and the field of Information Security.</p>
