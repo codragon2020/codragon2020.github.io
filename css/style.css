@@ -6,6 +6,10 @@
     text-align: left;
 }
 
+.jumbotron {
+    padding: 0;
+}
+
 .about-img {
     margin: 0px 20px;
 }
