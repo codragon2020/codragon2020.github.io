@@ -44,39 +44,36 @@
     <main class="contact-page">
         <h5>Contact</h5>
         
-        <article class="container article-content">
-            <div class="container">
-                <form>
-                  <div class="row">
-                    <div class="col-xs">
-                      <label for="name">Full Name:</label>
-                    </div>
-                    <div class="col-lg">
-                      <input type="text" id="name" name="name" placeholder="Your full name...">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs">
-                      <label for="email">Email:</label>
-                    </div>
-                    <div class="col-lg">
-                      <input type="text" id="email" name="email" placeholder="Your email...">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs">
-                      <label for="subject">Comment:</label>
-                    </div>
-                    <div class="col-lg">
-                      <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <input type="submit" value="Submit">
-                  </div>
-                </form>
-              </div>        
-        </article>
+        <form class="border-top container article-content">
+        
+            <section class="row">
+                <header class="col-xs">
+                    <label for="name">Full Name:</label>
+                </header>
+                <span class="col-lg">
+                    <input type="text" id="name" name="name" placeholder="Your full name...">
+                </span>
+            </section>
+            <section class="row">
+                <header class="col-xs">
+                    <label for="email">Email:</label>
+                </header>
+                <span class="col-lg">
+                    <input type="text" id="email" name="email" placeholder="Your email...is safe with me">
+                </span>
+            </section>
+            <section class="row">
+                <header class="col-xs">
+                    <label for="subject">Comment:</label>
+                </header>
+                <span class="col-lg">
+                    <textarea id="comment" name="comment" placeholder="What's on your mind?" style="height:100px"></textarea>
+                </span>
+            </section>
+            <section class="row">
+                <input type="submit" value="Submit">
+            </section>
+        </form>
     </main>
 </body>
 </html>
