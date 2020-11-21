@@ -2,16 +2,18 @@
     box-sizing: border-box;
   }
 
-
-/* Center website */
-main {
-    max-width: 700px;
-    margin: auto;
-  }
-
-
-
 body {
     background-color: #f1f1f1;
     font-family: Arial;
-  }
+}
+
+/* Center website */
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Add spacing in row and column*/
+.row, .column {
+    margin: 8px;
+}
