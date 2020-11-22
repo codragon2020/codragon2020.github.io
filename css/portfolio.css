@@ -5,12 +5,29 @@
 body {
     background-color: #f1f1f1;
     font-family: Arial;
+    padding-top: 70px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+hr {
+    border-top: 1px solid rgb(253 253 253 / 10%)
 }
 
 /* Center website */
 main {
     max-width: 800px;
     margin: auto;
+    color: white;
 }
 /* Spacing for the article */
 .border-top {
