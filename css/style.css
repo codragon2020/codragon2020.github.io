@@ -39,6 +39,14 @@ p {
     text-align: justify;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: yellow;
+}
+
 .contact-page {
     margin: 20px;
 }
