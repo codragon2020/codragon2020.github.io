@@ -12,6 +12,10 @@ main {
     max-width: 800px;
     margin: auto;
 }
+/* Spacing for the article */
+.border-top {
+    padding: 20px;
+}
 
 /* Add spacing in row and column*/
 .row, .column {
