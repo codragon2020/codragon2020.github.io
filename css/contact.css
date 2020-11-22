@@ -1,3 +1,9 @@
+.nav-link, .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+}
+
+
 hr {
     border-top: 1px solid rgb(253 253 253 / 10%)
 }
