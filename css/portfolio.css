@@ -19,5 +19,5 @@ main {
 
 /* Add spacing in row and column*/
 .row, .column {
-    margin: 8px;
+    padding: 8px;
 }
