@@ -1,8 +1,8 @@
 <!-- Repository should contain quality README file with description, screenshot, and link to deployed application. -->
 
-# codragon2020.github.io
+# My Portfolio Site
 
-Welcome to my Portfolio site. I am a Sr Manager of Software Engineering at Capital One and a student of the University of Richmond's Full-Stack Software Engineering Bootcamp.
+Welcome to my Portfolio site! I am a Sr. Manager of Software Engineering at Capital One and a student of the University of Richmond's Full-Stack Software Engineering Bootcamp. 
 
 ## Link to Site
 
