@@ -15,77 +15,76 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/contact.css">
     </head>
+
 <body>    
-    
     <div class="jumbotron" style="background-image: url(./images/background-tech-12.jpg) " alt="background-image tech;" >
 
-    
-     
-    <!-- Build the navbar and format with dark and responsive small icon -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <!-- style my name -->
-        <a id="title-name" class="navbar-brand" href="https://www.linkedin.com/in/jasonmcginthy">Jason McGinthy</a>
-        <!-- Adding a hamburger icon when collapsed in small screen -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Create collapsable buttons -->
-        <div class="navbar-collapse collapse ml-auto" id="collapsibleNavbar" style>
-            <!-- right-align the navbar -->
-            <ul class="navbar-nav ml-auto ">
-              <li class="nav-item ml-auto">
-                <a class="nav-link" href="./index.html">About</a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>    
-            </ul>
-          </div>  
-    </nav>
-    <main class="contact-page">
         
-        <form class="border-top container article-content">
-            <h3>Contact</h3>
-            <hr>
-            <section class="row">
-                <!-- Need to revisit the Semantic tags to not use <header> -->
-                <header class="col-xs">
-                    <label for="name">Full Name:</label>
-                </header>
-                <span class="col-lg">
-                    <input type="text" id="name" name="name" placeholder="Your full name...">
-                </span>
-            </section>
-            <section class="row">
-                <header class="col-xs">
-                    <label for="email">Email:</label>
-                </header>
-                <span class="col-lg">
-                    <input type="text" id="email" name="email" placeholder="Your email...is safe with me">
-                </span>
-            </section>
-            <section class="row">
-                <header class="col-xs">
-                    <label for="subject">Comment:</label>
-                </header>
-                <span class="col-lg">
-                    <textarea id="comment" name="comment" placeholder="What's on your mind?" style="height:100px"></textarea>
-                </span>
-            </section>
-            <section class="row">
-                <input type="submit" value="Submit">
-            </section>
-        </form>
-        <footer class="footer">
-            <div class="container">
-              <span class="text-muted"><code>&copy;</code> Jason McGinthy</span>
-            </div>
-          </footer>
-    </main>
-</div>
+        
+        <!-- Build the navbar and format with dark and responsive small icon -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- style my name -->
+            <a id="title-name" class="navbar-brand" href="https://www.linkedin.com/in/jasonmcginthy">Jason McGinthy</a>
+            <!-- Adding a hamburger icon when collapsed in small screen -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Create collapsable buttons -->
+            <div class="navbar-collapse collapse ml-auto" id="collapsibleNavbar" style>
+                <!-- right-align the navbar -->
+                <ul class="navbar-nav ml-auto ">
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>    
+                </ul>
+            </div>  
+        </nav>
 
+        <main class="contact-page">
+            <form class="border-top container article-content">
+                <h3>Contact</h3>
+                <hr>
+                <section class="row">
+                    <!-- Need to revisit the Semantic tags to not use <header> -->
+                    <header class="col-xs">
+                        <label for="name">Full Name:</label>
+                    </header>
+                    <span class="col-lg">
+                        <input type="text" id="name" name="name" placeholder="Your full name...">
+                    </span>
+                </section>
+                <section class="row">
+                    <header class="col-xs">
+                        <label for="email">Email:</label>
+                    </header>
+                    <span class="col-lg">
+                        <input type="text" id="email" name="email" placeholder="Your email...is safe with me">
+                    </span>
+                </section>
+                <section class="row">
+                    <header class="col-xs">
+                        <label for="subject">Comment:</label>
+                    </header>
+                    <span class="col-lg">
+                        <textarea id="comment" name="comment" placeholder="What's on your mind?" style="height:100px"></textarea>
+                    </span>
+                </section>
+                <section class="row">
+                    <input type="submit" value="Submit">
+                </section>
+            </form>
+            <footer class="footer">
+                <section class="container">
+                    <span class="text-muted"><code>&copy;</code> Jason McGinthy</span>
+                </section>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
