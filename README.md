@@ -6,7 +6,7 @@ Welcome to my Portfolio site! I am a Sr. Manager of Software Engineering at Capi
 
 ## Description
 
-This site is my first publicly accessible project. I created it to inform viewers some basic information about me, where to submit their contact information, and links to other projects I contributed to. While building this site I leveraged html, css, and javascript. This project taught me how to create a responsive website that is accessible to all device sizes and to leverage ![Bootstrap] (https://getbootstrap.com/docs/4.0/getting-started/introduction/) a CSS framework to style my pages consistently.
+This site is my first publicly accessible project. I created it to inform viewers some basic information about me, where to submit their contact information, and links to other projects I contributed to. While building this site I leveraged html, css, and javascript. This project taught me how to create a responsive website that is accessible to all device sizes and to leverage 1 [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) a CSS framework to style my pages consistently.
 
 ## Link to Site
 
