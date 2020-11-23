@@ -6,7 +6,10 @@ Welcome to my Portfolio site. I am a Sr Manager of Software Engineering at Capit
 
 ## Screenshot
 
-![Alt text](./images/About.png "Screenshot of About")
+![Alt text](./images/About-992.png "Screenshot of About page at 992px")
+![Alt text](./images/Contact-992.png "Screenshot of Contact page at 992px")
+![Alt text](./images/Portfolio-992.png "Screenshot of Portfolio page at 992px")
+
 
 ## Link to Site
 
