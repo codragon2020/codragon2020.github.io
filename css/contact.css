@@ -10,40 +10,40 @@ hr {
     color: white;
 }
 
-  /* Style the container */
-  .container {
+/* Style the container */
+.container {
     border-radius: 5px;
     padding: 20px;
-  }
-  
-  main {
+}
+
+main {
     max-width: 800px;
     margin: auto;
     color: white;
 }
 
-  /* Style the label to display next to the inputs */
-  label {
+/* Style the label to display next to the inputs */
+label {
     padding: 12px 12px 12px 24px;
     display: inline-block;
-  }
-  
-  /* Floating column for labels */
-  .col-xs {
+}
+
+/* Floating column for labels */
+.col-xs {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
-  
-  /* Floating column for inputs */
-  .col-lg {
+}
+
+/* Floating column for inputs */
+.col-lg {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
-  /* Style inputs and textareas */
-  input[type=text], textarea{
+}
+
+/* Style inputs and textareas */
+input[type=text], textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -51,10 +51,10 @@ hr {
     box-sizing: border-box;
     resize: vertical;
     background-color: transparent;
-  }
+}
 
-   /* Style the submit button */
-   input[type=submit] {
+/* Style the submit button */
+input[type=submit] {
     background-color: transparent;
     color: rgb(255, 255, 255);
     padding: 12px 20px;
@@ -62,12 +62,12 @@ hr {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
-  
-   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
-    .col-xs, .col-lg, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-xs, .col-lg, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
