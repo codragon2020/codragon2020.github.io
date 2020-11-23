@@ -12,10 +12,13 @@ This site is my first publicly accessible project. I created it to inform viewer
 
 https://github.com/codragon2020/codragon2020.github.io/index.html
 
-## Screenshot
+## Screenshots
 
+Screenshot of About page at 992px
 ![Alt text](./images/About-992.png "Screenshot of About page at 992px")
-<br>
+
+Screenshot of Contact page at 992px
 ![Alt text](./images/Contact-992.png "Screenshot of Contact page at 992px")
-<br>
+
+Screenshot of Portfolio page at 992px
 ![Alt text](./images/Portfolio-992.png "Screenshot of Portfolio page at 992px")
