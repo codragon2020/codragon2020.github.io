@@ -8,6 +8,10 @@ body {
     border-color: white !important;
 }
 
+fab, .fa-linkedin {
+    color: black;
+}
+
 .jumbotron {
     background-size: cover;
     background-position: center center;
