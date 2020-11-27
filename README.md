@@ -12,6 +12,10 @@ This site is my first publicly accessible project. I created it to inform viewer
 
 https://github.com/codragon2020/codragon2020.github.io/index.html
 
+This site was made with:
+
+![alt text tech stack](./images/html-css-js.png)
+
 ## Screenshots
 
 Screenshot of About page at 992px
