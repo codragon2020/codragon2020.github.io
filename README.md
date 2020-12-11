@@ -10,7 +10,7 @@ This site is my first publicly accessible project. I created it to inform viewer
 
 ## Link to Site
 
-https://github.com/codragon2020/codragon2020.github.io/index.html
+https://codragon2020.github.io/index.html
 
 This site was made with:
 
