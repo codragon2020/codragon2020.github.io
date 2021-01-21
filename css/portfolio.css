@@ -11,6 +11,6 @@ main {
 }
 
 /* Card styles */
-.card-title, .card-text {
+.card-title, .card-text, .card-footer, .card-header {
     color:black;
 }
