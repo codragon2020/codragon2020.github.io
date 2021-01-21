@@ -9,3 +9,8 @@ main {
 .row, .column {
     padding: 8px;
 }
+
+/* Card styles */
+.card-title, .card-text {
+    color:black;
+}
