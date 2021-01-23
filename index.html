@@ -32,13 +32,14 @@
             <div class="navbar-collapse collapse ml-auto" id="collapsibleNavbar">
                 <!-- right-align the navbar -->
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ml-auto">
-                      <a class="nav-link" href="./index.html">About</a>
+                    <li id="about" class="nav-item ml-auto button">
+                        <!-- <button>About</button> -->
+                      <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item ml-auto">
-                      <a class="nav-link" href="./contact.html">Contact</a>
+                    <li id="contact" class="nav-item ml-auto">
+                      <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item ml-auto">
+                    <li id="portfolio" class="nav-item ml-auto">
                       <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>    
                   </ul>
@@ -47,8 +48,8 @@
     
         <!-- Container for the content -->
         <main>
-            <div class="border-top container">
-                <span><h3>About Me</h3><a href="https://drive.google.com/file/d/1GeGWG7FEeIVahmjwpu3CjdXlwwFPotMi/view?usp=sharing" target="_blank">Resume</a></span>
+            <div class="border-top container" id="aboutPage">
+                <span><h3>About Me</h3><a href="https://drive.google.com/file/d/1VU7L00X-2CwBd74S3RpmNdkKifcUPNGg/view?usp=sharing" target="_blank">Resume</a></span>
                 <hr>
                 <!-- Added custom margin into the style.css and invoked using class="about-img" -->
                 <img id="about-img" src="images/linkedIn.jpg" alt="LinkedIn Image" class="float-left about-img" height="150px" width="150px">
@@ -59,6 +60,204 @@
                 <p>While at Capital One I have gained expertise in many interesting technologies utilized in and around the Financial and Tech Industries. Nothing is cooler than <a href="https://aws.amazon.com/" target="_blank">AWS</a>! I am new to Software Engineering, but my desire to learn, coupled with a strong passion for technology has me very excited for the future! </p>
                 <p>Having held many tech roles, I find software engineering to be the most intriguing challenge yet. There is no doubt software is changing the world. The global embrace of technology has far more potential than anyone can imagine. While I am determined to support it, I also want to lead the change. Gandhi once said "Be the change you wish to see in the world". As I remain true to my purpose, I recognize my desire to make the change happen rather than allow the change to happen to me.</p>
             </div>
+        
+            <div class="contact-page" id="contactPage">
+                <form class="border-top container article-content">
+                    <h3>Contact</h3>
+                    <hr>
+                    <section class="row">
+                        <!-- Need to revisit the Semantic tags to not use <header> -->
+                        <header class="col-xs">
+                            <label for="name">Full Name:</label>
+                        </header>
+                        <span class="col-lg">
+                            <input type="text" id="name" name="name" placeholder="Your full name...">
+                        </span>
+                    </section>
+                    <section class="row">
+                        <header class="col-xs">
+                            <label for="email">Email:</label>
+                        </header>
+                        <span class="col-lg">
+                            <input type="text" id="email" name="email" placeholder="Your email...is safe with me">
+                        </span>
+                    </section>
+                    <section class="row">
+                        <header class="col-xs">
+                            <label for="subject">Comment:</label>
+                        </header>
+                        <span class="col-lg">
+                            <textarea id="comment" name="comment" placeholder="What's on your mind?" style="height:100px"></textarea>
+                        </span>
+                    </section>
+                    <section class="row">
+                        <input type="submit" value="Submit">
+                    </section>
+                </form>    
+            </div>
+            <div class="portfolio-page" id="portfolioPage">
+                <article class="border-top container article-content">
+                    <h3>Portfolio</h3>
+                    <hr>
+                    
+                    <section class="row">                                               
+                        <!-- NBA Odds and Statistics -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">NBA Odds and Statistics</h5>
+                                <img src="./images/odds_statistics.png" class="card-img-top border-success" alt="NBA Odds and Statistics">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Looking for stats on your NBA team of choice? Maybe want to wager a bet based on bookie site odds?</p>
+                                    <a href="https://codragon2020.github.io/odds_and_statistics/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/odds_and_statistics" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Jan 2021</div>
+                            </div>
+                        </div>
+                    
+                        <!-- Hero Memory Game -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Hero Memory Game</h5>
+                                <img src="./images/hero_memory_game.png" class="card-img-top border-success" alt="Hero Memory Game">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Want to play a fun game of matching cards?  How about with your favority super heroes? </p>
+                                    <a href="https://codragon2020.github.io/hero_memory_game//" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/hero_memory_game/" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Jan 2021</div>
+                            </div>
+                        </div>
+    
+                        <!-- Weather Dashboard -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Weather Dashboard</h5>
+                                <img src="./images/weather_dashboard.png" class="card-img-top border-success" alt="Weather Dashboard">
+                                <div class="card-body border-success">
+                                    <p class="card-text">How is the weather out there? Need 5 day forecast for traveling?</p>
+                                    <a href="https://codragon2020.github.io/weather_dashboard/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/weather_dashboard" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Workday Scheduler -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Workday Scheduler</h5>
+                                <img src="./images/DayPlanner.png" class="card-img-top border-success" alt="Workday Scheduler">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Want a quick way to store your daily to do list?</p>
+                                    <a href="https://codragon2020.github.io/workday_scheduler/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/workday_scheduler" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+    
+                        <!-- Movie Info -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Movie Info</h5>
+                                <img src="./images/movie_app.png" class="card-img-top border-success" alt="Movie Info">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Looking for details on a movie you once saw or would like to see?</p>
+                                    <a href="https://codragon2020.github.io/movie_info/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/movie_info" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Code Quiz -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Code Quiz</h5>
+                                <img src="./images/code_quiz.png" class="card-img-top border-success" alt="Code Quiz">
+                                <div class="card-body border-success">
+                                    <p class="card-text">How fast can you read? This app allows the user see how fast they can read.</p>
+                                    <a href="https://codragon2020.github.io/code_quiz/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/code_quiz" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+    
+                        <!-- Password Generator -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Password Generator</h5>
+                                <img src="./images/pwd-generator-350.png" class="card-img-top border-success" alt="Password Generator">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Are you using secure passwords? Well you should be. This app ensures every password is exactly what you need.</p>
+                                    <a href="https://codragon2020.github.io/password-generator/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/password-generator" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Speed Reader -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Speed Reader</h5>
+                                <img src="./images/speedreader-350.png" class="card-img-top border-success" alt="Speed Reader">
+                                <div class="card-body border-success">
+                                    <p class="card-text">How fast can you read? This app allows the user see how fast they can read.</p>
+                                    <a href="https://codragon2020.github.io/speedreader/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/speedreader" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+                    
+                        <!-- Tip Calculator -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Tip Calculator</h5>
+                                <img src="./images/tip_calc.png" class="card-img-top border-success" alt="Tip Calculator">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Need help calculating a tip?  Sharing the bill with anyone?</p>
+                                    <a href="https://codragon2020.github.io/tip_calculator/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/tip_calculator" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+                    
+                        <!-- Calculator -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Calculator</h5>
+                                <img src="./images/calculator.png" class="card-img-top border-success" alt="Calculator">
+                                <div class="card-body border-success">
+                                    <p class="card-text">Need to make a quick calculation?</p>
+                                    <a href="https://codragon2020.github.io/calculator/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/calculator" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Dec 2020</div>
+                            </div>
+                        </div>
+    
+                        <!-- Rock Paper Scissors -->
+                        <div class="col-sm-6 d-flex align-items-stretch mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <h5 class="card-header bg-transparent border-success">Rock Paper Scissors</h5>
+                                <img src="./images/rock-paper-scissors.png" class="card-img-top border-success" alt="Rock Paper Scissors">
+                                <div class="card-body border-success">
+                                    <!-- <h5 class="card-title border-success">Rock Paper Scissors</h5> -->
+                                    <p class="card-text">Let's settle this like adults with a game of Rock Paper Scissors.</p>
+                                    <a href="https://codragon2020.github.io/rock-paper-scissors/" target="_blank" class="btn btn-primary">View App</a>
+                                    <a href="https://github.com/codragon2020/rock-paper-scissors" target="_blank" class="btn btn-primary">View Code</a>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">Created in Nov 2020</div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
         </main>
         <footer class="footer">
             <section class="container">
@@ -66,5 +265,6 @@
             </section>
         </footer>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
