@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Additional recommended scripts from w3schools.com -->
@@ -34,13 +35,13 @@
                 <ul class="navbar-nav ml-auto">
                     <li id="about" class="nav-item ml-auto button">
                         <!-- <button>About</button> -->
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#" onclick="changeCSS('css/style.css', 1, 'images/background-tech-07.jpg');">About</a>
                     </li>
                     <li id="contact" class="nav-item ml-auto">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#" onclick="changeCSS('css/contact.css', 1, 'images/background-tech-12.jpg');">Contact</a>
                     </li>
                     <li id="portfolio" class="nav-item ml-auto">
-                      <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                      <a class="nav-link" href="./portfolio.html" onclick="changeCSS('css/portfolio.css', 1, 'images/background-tech-06.jpg');">Portfolio</a>
                     </li>    
                   </ul>
               </div>  

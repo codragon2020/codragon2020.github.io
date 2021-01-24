@@ -1,3 +1,7 @@
+body {
+    padding-top: 56px;
+}
+
 /* Center website */
 main {
     max-width: 800px;
@@ -5,10 +9,29 @@ main {
     color: white;
 }
 
+/* Style the container */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
 /* Add spacing in row and column*/
 .row, .column {
     padding: 8px;
 }
+
+#title-name {
+    font-size: 32px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 0;
+    position: relative;
+    /* height: calc(100vh - 56px); */
+  }
+
 
 /* Card styles */
 .card-title, .card-text, .card-footer, .card-header {
